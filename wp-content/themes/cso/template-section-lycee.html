@@ -1,0 +1,288 @@
+<?php
+/*
+Template Name: sections-lycee
+*/
+get_header(); ?>
+
+<section>
+	<h2>Le Lycée</h2>
+	<div id="sous-menu">
+		<ul>
+			<li><a href="#seconde">Sixième</a></li>
+			<li><a href="#economique">Première & Terminale ES</a></li>
+			<li><a href="#litteraire">Première & Terminale L</a></li>
+			<li><a href="#scientifique">Première & Terminale S</a></li>
+		</ul>
+		<div> 
+			<p>* Ces options ne sont mises en place que si le nombre de demandes est suffisant.
+			</p>
+		</div>
+
+	</div>	
+
+	<article id="seconde" class="cadre" style="background-image:url(<?php the_field(image_2e);?>);background-repeat:no-repeat;background-size:cover;background-position:center;">
+		<h3>Seconde</h3>
+			<p><?php the_field(presentation_2e);?></p>
+	</article>
+
+	<article id="economique" class="cadre"  style="background-image:url(<?php the_field(image_ES);?>);background-repeat:no-repeat;background-size:cover;background-position:center;">
+		<h3>Économique et Sociale</h3>
+			<table id="tableauES">
+				    <tr>
+				      <td><a name="ES">Matières enseignées</a></strong></div></td>
+				      <td width="10%"><div align="center"><strong>1&deg;</strong></div></td>
+				      <td width="10%"><div align="center"><strong>T&deg;</strong></div></td>
+				    </tr>
+				    <tr>
+				      <td align="left" valign="top">
+					  <p>  Sciences Economiques et Sociales<br>
+				           Math&eacute;matiques<br>
+				           Histoire - G&eacute;ographie<br>
+				           Fran&ccedil;ais<br>
+				           Philosophie<br>
+				          LV 1 : Anglais<br>
+				          LV 2: Allemand ou Espagnol<br>
+				           Enseignement scientifique (SVT)<br>
+				        <SPAN LANG="en-GB">   E.P.S<br>
+				        </SPAN>   Education civique juridique et sociale<br>
+				           Travaux personnels encadr&eacute;s
+				        <p><strong>AU CHOIX UN  ENSEIGNEMENT DE SPECIALITE EN TERMINALE <br>
+				        </strong>   Sciences Sociales et Politiques<br>
+				           Math&eacute;matiques</p>
+				        <p><strong>DEUX OPTIONS FACULTATIVES AU PLUS*</strong><br>
+				  Arts plastiques<br>
+				  E.P.S.<br>
+				  Latin<br>
+				  LV 3 :Italien<br>
+				  Musique</p></td>
+				      <td align="left" valign="top"><div align="center">
+				        <p><strong>X<br>
+				          X<br>
+				          X<br>
+				          X<br>
+				          -<br>
+				          X<br>
+				          X<br>
+				          X<br>
+				          X<br>
+				          X<br>
+				          X</strong></p>
+				        <p><strong><br>
+				          <br>
+				          X<br>
+				        X</strong></p>
+				        <p><strong><br>
+				          X<br>
+				          X<br>
+				          X<br>
+				          X<br>
+				        X</strong></p>
+				      </div></td>
+				      <td align="left" valign="top"><div align="center">
+				        <p><strong>X<br>
+				          X<br>
+				          X<br>
+				          -<br>
+				          X<br>
+				          X<br>
+				          X<br>
+				          -<br>
+				          X<br>
+				          X<br>
+				          -</strong></p>
+				        <p><strong><br>
+				          <br>
+				          X<br>
+				        X</strong></p>
+				        <p><strong><br>
+				          X<br>
+				          X<br>
+				          X<br>
+				          X<br>
+				          X</strong></p>
+				      </div></td>
+				    </tr>
+				  </table>
+	</article>
+
+	<article id="litteraire" class="cadre"  style="background-image:url(<?php the_field(image_L);?>);background-repeat:no-repeat;background-size:cover;background-position:center;">
+		<h3>Littéraire</h3>
+		<table class="tableau" id="tableauL">
+		    <tr>
+		      <td width="80%"><div align="center"><strong><a name="L">Matières enseignées</a></strong></div></td>
+		      <td width="10%"><div align="center"><strong>1&deg;</strong></div></td>
+		      <td width="10%"><div align="center"><strong>T&deg;</strong></div></td>
+		    </tr>
+		    <tr>
+		      <td align="left" valign="top">
+		        <p>&bull; Fran&ccedil;ais et litt&eacute;rature<br>
+		  &bull; Philosophie <br>
+		  &bull; Litt&eacute;rature <br>
+		  &bull; Histoire - G&eacute;ographie <br>
+		  &bull; LV 1 : Anglais <br>
+		  &bull; Littérature Etrangère en Langue Etrangère (LELE) <br>
+		  &bull; LV 2 : Allemand ou Espagnol<br>
+		&bull; Sciences (SVT - Sc physiques)<br>
+		          <SPAN LANG="en-GB">&bull;  E.P.S<br>
+		          </SPAN>&bull;  Education civique juridique et sociale<br>
+		&bull;  Travaux personnels encadr&eacute;s </p>
+		        <p><strong>AU CHOIX UN  ENSEIGNEMENT OBLIGATOIRE EN 1ERE ET DE SPECIALITE EN TERMINALE <br>
+		          </strong>&bull; LV 1 (Renforc&eacute;e) : Anglais 
+		          <br>
+		          &bull; LV 3 : Italien<br>
+		          &bull; Latin          <br>
+		        &bull; Arts Plastiques </p>
+		        <p><strong>DEUX OPTIONS FACULTATIVES AU PLUS*</strong><br>
+		          &bull; LV 3 : Italien <br>
+		          &bull; Latin 
+		          <br>
+		          &bull; Arts Plastiques<br>
+		      &bull; Musique<br>
+		      &bull; EPS </p></td>
+		      <td align="left" valign="top"><div align="center">
+		          <p><strong>X<br>
+		            -<br>
+		            -<br>
+		          X<br>
+		            X<br>
+		            X<br>
+		            X<br>
+		            X<br>
+		            X<br>
+		            X<br>
+		        X</strong></p>
+		        <p><strong><br>
+		                <br>
+		          X<br>
+		          X<br>
+		          X<br>
+		        X</strong></p>
+		        <p><strong><br>
+		          X<br>
+		          X<br>
+		          X<br>
+		          X<br>
+		          X<br>
+		        </strong></p>
+		      </div></td>
+		      <td align="left" valign="top"><div align="center">
+		          <p><strong>-<br>
+		            X<br>
+		            X<br>
+		            X<br>
+		            X<br>
+		            X<br>
+		            X<br>
+		            -<br>
+		            X<br>
+		            X<br>
+		            -</strong></p>
+		          <p><strong><br>
+		                <br>
+		          X<br>
+		          X<br>
+		          X<br>
+		          X</strong></p>
+		          <p><strong><br>
+		          X<br>
+		          X<br>
+		          X<br>
+		          X<br>
+		          X<br>
+		        </strong></p>
+		      </div></td>
+		    </tr>
+		  </table>
+		
+	</article>
+
+	<article id="cinquieme" class="cadre"  style="background-image:url(<?php the_field(image_S);?>);background-repeat:no-repeat;background-size:cover;background-position:center;">
+		<h3>Scientifique</h3>
+		<table>
+			    <tr>
+			      <td width="80%"><div align="center"><strong><a name="S">Matières enseignées</a></strong></div></td>
+			      <td width="10%"><div align="center"><strong>1&deg;</strong></div></td>
+			      <td width="10%"><div align="center"><strong>T&deg;</strong></div></td>
+			    </tr>
+			    <tr>
+			      <td align="left" valign="top">
+			        <p>&bull; Math&eacute;matiques <br>
+			  &bull;  Physique - Chimie<br>
+			  &bull; SVT <br>
+			  &bull; Histoire - G&eacute;ographie <br>
+			  &bull; Fran&ccedil;ais <br>
+			  &bull; Philosophie <br>
+			          <SPAN LANG="en-GB">&bull; LV 1 : Anglais <br>
+			        </SPAN>&bull; LV 2 : Allemand ou Espagnol<br>
+			        &bull; EPS <br>
+			        &bull; Education civique juridique et sociale<br>
+			&bull;  Travaux personnels encadr&eacute;s </p>
+			        <p><strong>AU CHOIX UN  ENSEIGNEMENT  DE SPECIALITE EN TERMINALE <br>
+			          </strong>&bull; Math&eacute;matiques  <br>
+			          &bull; Physique - Chimie <br>
+			        &bull; SVT  </p>
+			        <p><strong>DEUX OPTIONS FACULTATIVES AU PLUS*</strong><br>
+			          &bull; LV 3 : Italien <br>
+			&bull; Latin <br>
+			&bull; Arts Plastiques<br>
+			&bull; Musique<br>
+			&bull; EPS </p></td>
+			      <td align="left" valign="top"><div align="center">
+			          <p><strong>X<br>
+			            X<br>
+			            X<br>
+			            X<br>
+			            X<br>
+			            -<br>
+			            X<br>
+			            X<br>
+			            X<br>
+			            X<br>
+			            X</strong></p>
+			        <p><strong><br>
+			                <br>
+			          -<br>
+			          -<br>
+			          -</strong></p>
+			        <p><strong><br>
+			          X<br>
+			          X<br>
+			          X<br>
+			          X<br>
+			          X<br>
+			        </strong></p>
+			      </div></td>
+			      <td align="left" valign="top"><div align="center">
+			          <p><strong>X<br>
+			            X<br>
+			            X<br>
+			            -<br>
+			            -<br>
+			            X<br>
+			            X<br>
+			            X<br>
+			            X<br>
+			            X<br>
+			            -</strong></p>
+			          <p><strong><br>
+			                <br>
+			          X<br>
+			          X<br>
+			          X</strong></p>
+			        <p><strong><br>
+			          X<br>
+			          X<br>
+			          X<br>
+			          X<br>
+			          X</strong></p>
+			      </div></td>
+			    </tr>
+			  </table>
+		
+			</article>
+</section>
+
+<?php get_footer(); ?>
+
+</body>
+</html>
