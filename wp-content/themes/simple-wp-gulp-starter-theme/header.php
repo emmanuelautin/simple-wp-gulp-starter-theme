@@ -10,8 +10,8 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="<?php get_template_directory() ?>/normalize.css">
-        <link rel="stylesheet" href="<?php get_template_directory() ?>/main.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/main.css">
        
     </head>
     <body>
